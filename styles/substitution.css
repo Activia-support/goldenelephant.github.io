@@ -12,6 +12,11 @@ body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvet
   --link: #1D4ED8;
 }
 
+.banner-phone::before,
+.btn-dark::before,
+.frame-phone::before {
+  content: "\1F4DE\00a0";
+}
 
 .phone-links-grid {
   display: grid;
