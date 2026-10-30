@@ -64,3 +64,15 @@ body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvet
   vertical-align: middle;
   margin-right: 8px;
 }
+
+.frame-phone {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: 1px solid red;
+  border-radius: 8px;
+}
